@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	
+	<title>Pomodoro Clock</title>
+	<meta name="author" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	
+	<link href="styles/normalize.css" rel="stylesheet" />
+	<link href="styles/styles.css" rel="stylesheet" />
+	
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+</head>
+	
+<body>
+
+<header>
+	<h1>FreeCodeCamp</h1>
+</header>
+
+<section>
+	<h1>Pomodoro Timer</h1>
+	
+	<div id="container">
+		<div id="controls">
+			<div id="break">
+				<h3>break length</h3>
+				<div class="reduce">-</div>
+				<div class="break-time"></div>
+				<div class="increase">+</div>
+			</div>
+			
+			<div id="length">
+				<h3>session length</h3>
+				<div class="reduce">-</div>
+				<div class="session-time"></div>
+				<div class="increase">+</div>
+			</div>
+		</div>
+		<div id="timer" data-click-state="1">
+			<div class="background"></div>
+			<h2>Session</h2>
+			<div class="countdown"></div>
+		</div>
+	</div>
+</section>
+
+<!-- JavaScript -->
+<script src="scripts/application.js"></script>
+	
+</body>
+</html>

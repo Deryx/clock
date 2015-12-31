@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Quintessential);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 60px;
+	background: #000;
+	color: #FFF;
+}
+
+header h1 {
+	margin-top: 0;
+	margin-left: 40px;
+	padding-top: 10px;
+	font-family: "Montserrat", sans-serif;
+}
+
+section {
+	margin: 0 auto;
+	margin-top: 5%;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+}
+
+section h1 {
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	font-size: 300%;
+}
+
+#container {
+	margin: 0 auto;
+	padding: 0;
+	width: 70%;
+}
+
+#controls {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	clear: both;
+}
+
+#break {
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	float: left;
+}
+
+#break h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#length {
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	float: right;
+}
+
+#length h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#timer {
+	margin: 0 auto;
+	width: 30em;
+	height: 30em;
+	clear: both;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 5px solid #000;
+}
+
+#timer h2 {
+	margin-top: 20%;
+	font-size: 400%;
+}
+
+.background {
+	width: 100%;
+	height: 0;
+	background-color: #000;
+	line-width: 10;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.reduce {
+	float: left;
+	width: 33%;
+	font-size: 300%;
+}
+
+.break-time, .session-time {
+	float: left;
+	width: 33%;
+	font-size: 300%;
+}
+
+.increase {
+	float: left;
+	width: 33%;
+	font-size: 300%;
+}
+
+.countdown {
+	padding-top: 60px;
+	font-size: 700%;
+}
